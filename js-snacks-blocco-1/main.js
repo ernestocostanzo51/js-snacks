@@ -8,8 +8,8 @@ let numeri=[]
 let sort
 
 for(i=0; i<2; i++){
-    prompt(numeri)
-    numeri.push
+    prompt("inserisci un numero")
+    numeri.push(numeri)
 }
 
 if(numeri[0]>numeri[1]){
