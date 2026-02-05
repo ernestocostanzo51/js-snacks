@@ -4,6 +4,8 @@
 //ALTRIMENTI metto il secondo numero come primo
 
 let numeri=[]
+//inserisco variabile temporanea (metodo bubble sort)
+let sort
 
 for(i=0; i<2; i++){
     prompt(numeri)
@@ -11,11 +13,9 @@ for(i=0; i<2; i++){
 }
 
 if(numeri[0]>numeri[1]){
-    console.log("il primo numero è il più grande")
+   sort = numeri[0]
+   numeri[0] = numeri[1]
+   numeri[1] = sort
 }
-if else(numeri[0]<numeri[1]){
-     console.log("seconso numero è il più grande")
-}   
-else{
-    console.log("i numeri sono uguali")
-}
+
+console.log(numeri)
