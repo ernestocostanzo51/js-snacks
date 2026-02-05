@@ -9,3 +9,13 @@ for(i=0; i<2; i++){
     prompt(numeri)
     numeri.push
 }
+
+if(numeri[0]>numeri[1]){
+    console.log("il primo numero è il più grande")
+}
+if else(numeri[0]<numeri[1]){
+     console.log("seconso numero è il più grande")
+}   
+else{
+    console.log("i numeri sono uguali")
+}
